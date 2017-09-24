@@ -3,6 +3,24 @@
     <head>
         <title>I am Raven</title>
     </head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+     	 $('html, body').animate({
+        	scrollTop: $(hash).offset().top
+      		}, 800, function(){
+       	 window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
 <style>
 table, th, td {
 	border: 0px solid black;
@@ -10,33 +28,47 @@ table, th, td {
 	padding: 0;
 }
 body {
+	font-family:lato;
+	font-size:18px;
+	font-weight: medium;
 	margin:0;
 }
 </style>   
     <body>
+	<a id="home"> </a>
 	<table style="width:100%", border=0>
 
-  		<tr>
-   	 		<td colspan="7" align="center"><img src="images/rave1.jpg" alt="home" width=100%></img></td>
+  		<tr table background="images/rave1.jpg" height=600px>
+   	 		<td colspan="7", align="center"></br></br></br></br></br></br><a href="#about"><img src="images/get started.png"></td>
     
   		</tr>
 
- 		<tr>
-			<td width=8%></td>
+ 		<tr align="center", bgcolor="grey", height=38px>
 			<td width=45%>Logo</td>
-			<td width=10%>Home</td> 
-			<td width=10%>About Me</td>
+			<td width=10%><a href="#home">Home</td> 
+			<td width=10%><a href="#about">About Me</td>
 			<td width=10%>Education</td>
 			<td width=10%>Contact Me</td>
 			<td width=8%></td>
  		</tr>
-
-  		<tr>
-   		 
-  		</tr>
+	</table>
+	
+	<table>
+		<a id="about"> 
+		<tr>
+			<td width=3%></td>
+			<td width=53%><img src="images/Raven.png" height=476px, width=476px></td>
+			<td><font size="50">
+			<b>About Me</b></font></br>
+			Hi there!, I'm Raven Alinsonorin and this is my resume, boring isn't it?</br>
+			Well then lets start with my characteristics.</br>
+			Name: Raven Alinsonorin</br> Age:19 years old or approx: 228months/6935days/166,440hours</br> Birthdate: December 16, 1997 
+			</td>	
+		</tr>
+		</a>
+	</br></br></br>
+	</table>
+	<a href="#home"><p align="center"><abbr title="go up"><img src="images/arr.png" height=50px, width=50px></abbr></p></a>
     </body>
 	
-</table>
-		
-
 </html>	
