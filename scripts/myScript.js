@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
   
   $("a").on('click', function(event) {
@@ -25,7 +24,20 @@ $(document).ready(function() {
     }
   });
 });
-function myFunction() {
-    var popup = document.getElementById("myPopup");
+
+function gmail() {
+    var popup = document.getElementById("myPopup1");
+    popup.classList.toggle("show");
+}
+function facebook() {
+    var popup = document.getElementById("myPopup2");
+    popup.classList.toggle("show");
+}
+function cellphone() {
+    var popup = document.getElementById("myPopup3");
+    popup.classList.toggle("show");
+}
+function telephone() {
+    var popup = document.getElementById("myPopup4");
     popup.classList.toggle("show");
 }
