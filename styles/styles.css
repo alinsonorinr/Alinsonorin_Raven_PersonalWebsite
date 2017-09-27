@@ -16,10 +16,6 @@ body {
 	margin:0;
 }
 
-a:target {
-   background-color: #ffa;
-}
-
 #shadow {
   	-moz-box-shadow: 0 0 5px #999;
 	-webkit-box-shadow: 0 0 5px #999;
@@ -43,7 +39,7 @@ a:target {
   position: fixed;
   width: 100%;
   z-index: 99999;
-  transition: all ease .5s;
+  transition: all ease 1s;
 }
 
 #logo {
