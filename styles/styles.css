@@ -16,6 +16,9 @@ body {
 	margin:0;
 }
 
+=======================================================
+       black lined shadow when this id is used
+=======================================================
 #shadow {
   	-moz-box-shadow: 0 0 5px #999;
 	-webkit-box-shadow: 0 0 5px #999;
@@ -31,6 +34,10 @@ body {
 	-webkit-box-shadow: 0 0 5px #999;
 	box-shadow:  0 0 5px #999;
 }
+
+=======================================================
+  menu bar shirnks and opacity changes when scrolled
+=======================================================
  
 #nav {
   height: 70px;
@@ -63,6 +70,9 @@ body {
   color: black;
 }
 
+=======================================================
+        text popups when this id is hovered
+=======================================================
 
 .popup {
     position: relative;
