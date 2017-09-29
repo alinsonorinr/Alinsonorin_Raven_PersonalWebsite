@@ -4,9 +4,29 @@
         <title>I am Raven</title>
     </head>
 <link rel="stylesheet" type="text/css" href="styles/styles.css">
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqHlk9zecHhLMXjFZpDIwP6PzmUHjieUA&callback=initMap"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="scripts/myScript.js"></script>
-
+<script>
+function initMap() {
+        var location = {lat: 7.09546848, lng: 125.643284};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: location
+        });
+        var marker = new google.maps.Marker({
+          position: location,
+          map: map
+        });
+      }
+</script>
+<style>
+#map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+</style>
     <body>
 <!=============================MENUBAR=============================>
 	<a id="home"> </a>
@@ -68,14 +88,16 @@
 
 	</br></br></br>
 <!===========================ADDRESS=============================>
-	<table>
+	<table align="center" width=80% >
 		<tr>
-			<td width=15% height="500px"></td>
-			<td width=50% align="left"><font size="50"><b>Address</b></font></br>
-				mississippi st. davao farm village, jerome agdao. davao city			
-			<td></td>
+			<td align="center"><font size="50"><b>Address</b></font></br>
+			Mississippi st. Davao Farm Village, R.castillo Agdao. Davao City			
 		</tr>
+		<tr>	
+			<td><div id="map"></div></td>
+		</tr>	
 	</table>
+</br></br></br></br>
 	<a id="educ"> </a>
 <!===========================EDUCATION===========================>
 	<div id="shadow"><div>
