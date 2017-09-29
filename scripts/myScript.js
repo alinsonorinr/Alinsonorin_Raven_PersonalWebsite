@@ -1,3 +1,6 @@
+/*============================================
+	     smooth scroll script
+==============================================*/
 $(document).ready(function(){
   
   $("a").on('click', function(event) {
@@ -14,6 +17,9 @@ $(document).ready(function(){
   });
 });
 
+/*============================================
+	      Menubar shrinks script
+==============================================*/
 $(document).ready(function() {
 	$(window).scroll(function() {
   	if($(document).scrollTop() > 10) {
@@ -25,6 +31,9 @@ $(document).ready(function() {
   });
 });
 
+/*============================================
+	      Contact popup script
+==============================================*/
 function gmail() {
     var popup = document.getElementById("myPopup1");
     popup.classList.toggle("show");
