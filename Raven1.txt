@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>I am Raven</title>
+    </head>
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="scripts/myScript.js"></script>
+
+    <body>
+<!=============================MENUBAR=============================>
+	<a id="home"> </a>
+	<div id="nav"><div id="navshadow"><div id="logo"> 
+	<table style="width:100%">	
+		<tr align="center">
+
+			<td width=45%>Logo</td>
+			<td width=10%><a href="#home">Home</td> 
+			<td width=10%><a href="#about">About Me</td>
+			<td width=10%><a href="#educ">Education</td>
+			<td width=10%><a href="#contact">Contacts</td>
+			<td width=8%></td>
+
+		</tr>
+<!==========================MAIN WALLPAPER=========================>
+	</table></div></div></div>
+
+	<div id="botshadow">
+
+	<table background="images/rave.jpg" height=640px style="width:100%">
+		<tr>
+		
+			<td colspan="7">
+   	 		</br></br></br></br></br></br>
+			<a href="#about"><img src="images/get started.png"></td>
+
+  		</tr>
+	</table></div>
+
+	<a id="about"> </a>
+<!============================ABOUT ME============================>
+	<table width=100%>
+
+  		<tr>
+			<td rowspan="2" width=10%></td>
+    			<td rowspan="2" width=30%><img src="images/raven2.png" width="400px" height="400px"></td>
+    			<td rowspan="2" width=8%></td>
+			<td colspan="2" align="center"></br></br><font size="60"><b>Biography</b></font></td>
+ 			<td rowspan="2" width=10%></td>
+		</tr>	
+  		<tr>
+    			<td>
+				Name: Raven Magno Alinsonorin</br></br>	
+				Age: 19 years old</br></br>	 			
+				Date of Birth: December 16, 1997</br></br>	 	
+				Nationality: Filipino</br></br>	
+			</td>
+    			<td>
+				Gender: Male</br></br>	
+				Status: Single</br></br>	
+				Place of Birth: Davao City</br></br>	
+				Religion:Roman Catholic</br></br>	
+			</td>
+  		</tr>
+
+	</br></br></br>
+	
+	</table>
+
+	</br></br></br>
+
+	<a id="educ"> </a>
+<!===========================EDUCATION===========================>
+	<div id="shadow"><div>
+
+	<table>
+			
+		<tr>
+			<td width=15%></td>
+			<td width=50%align="left"><font size="50"><b>Education</b></font></br>
+			"01110011 01100101 01101110 01100100 00100000 01101110</br>
+ 			01110101 01100100 01100101 01110011 00001101 00001010"</br>
+ 			- Raven Alinsonorin</br></br></br>
+			<font color="0099ff">Elementary:</br></font> Lapu-lapu Elementary School </br>2004 - 2010</br></br> 
+			<font color="66cc33">Highschool:</br></font> Sta. Ana National Highschool </br>2010 - 2014</br></br>
+			<font color="ff6666">College:</br></font> University of Southeastern Philippines </br>2014 - Present</br>  
+			<td><img src="images/educ.png" height=476px, width=476px></td>
+			</td>
+		</tr>
+	</table>
+	
+	</br></br></br></br>
+<!=========================AFFILIATIONS=========================>
+	<table width=100%>
+
+		<tr>
+			<td rowspan=2 width=15%></td>
+			<td colspan=3><font size="50"><b>School Affiliations</b></font></br></br></br></br>
+			<td rowspan=2 width=15%></td>
+		</tr>
+		<tr>
+			
+			<td width=28%>
+			<b>Philippine Society of Information Technology Students-Region XI</b></br>
+			Member</br>
+			2014-present</br>
+			<img src="images/psits.png" width=200px, height=200px>	
+			</td>
+			<td width=28%>
+			<b>5th Graphic Design Conference (Graphicon 5)</b></br>
+			CAP Auditorium, Davao City </br>
+	    		December 10, 2016</br></br>
+			<img src="images/g5.jpg" width=200px, height=200px>
+			</td>
+			<td width=28%>
+			<b>Institute of Computing</b></br>
+			Student</br>
+			2014-present</br></br>
+			<img src="images/ic.png" width=200px, height=200px>
+			</td>
+		
+	</table>
+	
+	</br></br></br></br></br></br></br>
+	</div></div>
+	
+	<a id="contact"></a>
+<!=========================CONTACTS=========================>	
+		<p>You can have a conversation with me through the following contacts:</p>
+	</br></br>
+	
+	<table width=50% align="center">
+	
+		<tr align="center">
+			<td width=8%><div class="popup" onmouseover="gmail()">
+			<img src="images/gmail.png" width=105px heigth=135px>
+			<span class="popuptext" id="myPopup1">alinsonorinr@gmail</span>
+			</div></td>
+			<td width=11%><div class="popup" onmouseover="facebook()">
+			<img src="images/fb.png" width=35px heigth=35px>
+			<span class="popuptext" id="myPopup2">fb.com/alinsonorin</span>
+			</div></td>
+			<td width=11%><div class="popup" onmouseover="cellphone()">
+			<img src="images/phone.png" width=21px heigth=35px>
+			<span class="popuptext" id="myPopup3">+639498145599</span>
+			</div></td>
+			<td width=11%"><div class="popup" onmouseover="telephone()">
+			<img src="images/tel.png" width=35px heigth=35px>
+			<span class="popuptext" id="myPopup4">#224-6242</span>
+			</div></td>
+		</tr>
+	</table>
+
+<!=========================COPY RIGHTS=========================>
+		<p align="center"><font size="2">
+			Copyright 2017 - Raven Alinsonorin. All rights reserved.
+		</font></p>
+    </body>
+	
+</html>	
