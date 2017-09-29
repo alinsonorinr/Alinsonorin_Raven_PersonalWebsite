@@ -50,3 +50,15 @@ function telephone() {
     var popup = document.getElementById("myPopup4");
     popup.classList.toggle("show");
 }
+
+/*============================================
+	      Map to my address
+==============================================*/
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(7.09546848, 125.643284),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
