@@ -54,3 +54,15 @@ function telephone() {
 /*============================================
 	      Map to my address
 ==============================================*/
+
+function initMap() {
+        var location = {lat: 7.09546848, lng: 125.643284};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: location
+        });
+        var marker = new google.maps.Marker({
+          position: location,
+          map: map
+        });
+      }
