@@ -28,7 +28,7 @@ body {
 #shadow {
   	-moz-box-shadow: 0 0 5px #999;
 	-webkit-box-shadow: 0 0 5px #999;
-	box-shadow:  0 0 5px 5px #999;
+	box-shadow:  0px 0px 5px 5px #999;
 }
 
 #botshadow {
