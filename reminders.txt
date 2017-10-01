@@ -4,11 +4,21 @@ this reminders started on 9/29/2017
 	* you can navigate using the menu bar links or scroll down
 	* current animations is applied on menu bar and links "smooth scrolling"
 works to be done
-- portfolio
+- portfolio 
 - further info about me 
 - code structure
 - categorization
-- edit it on notepad++
+- edit it on notepad++ 
 - images
 - delete uncessesary files
-- changing poor quality images 
+- changing poor quality images  
+
+10/1/2017 
+- portfolio 
+- further info about me *done
+- code structure
+- categorization
+- edit it on notepad++ 
+- images
+- delete uncessesary files
+- changing poor quality images *done  
